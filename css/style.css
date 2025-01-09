@@ -47,6 +47,9 @@ nav ul li a{
     font-size:20px;
     color:#474747;
 }
+.header .secondary-bg{
+    background-color: #FFF8F3;
+}
 
 /* nav style */
 
@@ -80,3 +83,42 @@ background-image: url("../images/developer.png"),url("../images/header_bg.png");
 background-repeat: no-repeat;
 background-position:top left, bottom right;
 }
+.section-title{
+    font-size: 35px;
+    font-weight:bold;
+    color:#1E1E1E;
+}
+.section-discription{
+    color:#757575;
+    font-weight:18px;
+}
+.secondary-bg{
+    background-color: #FFF8F3;
+}
+/* main style */
+main{
+    max-width:1140px;
+    margin: 0 auto;
+    
+}
+
+
+/* about style */
+.about{
+    border-radius:10px;
+    padding:130px 150px;
+    text-align:center;
+    margin-top:130px;
+   
+}
+.item-description{
+    font-weight:bold;
+
+}
+.about-items{
+  display:flex;  
+  justify-content: space-around;
+ 
+  
+}
+
